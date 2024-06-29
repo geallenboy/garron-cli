@@ -1,0 +1,50 @@
+{
+  "name": "@garron/cli",
+  "version": "1.0.1",
+  "description": "Add garron to target file",
+  "homepage": "https://github.com/geallenboy/garron-toolbox/tree/master/packages/garron-cli",
+  "bugs": {
+    "url": "https://github.com/geallenboy/garron-toolbox/issues/new"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/geallenboy/garron-toolbox.git"
+  },
+  "license": "MIT",
+  "author": "gejialun88@gmail.com",
+  "sideEffects": false,
+  "type": "module",
+  "imports": {
+    "@": "./src"
+  },
+  "bin": {
+    "garron-cli": "dist/cli.js",
+    "garron": "dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "npm run type-check && pkgroll --minify -p tsconfig.prod.json --env.NODE_ENV=production && npm run shebang",
+    "dev": "pkgroll -p tsconfig.prod.json --env.NODE_ENV=development --watch",
+    "link": "npm run build && npm link -f",
+    "prepare": "npm run build",
+    "shebang": "node ./dist/cli.js -t ./dist/cli.js",
+    "start": "node ./dist/cli.js",
+    "test": "vitest --passWithNoTests",
+    "test:coverage": "vitest run --coverage --passWithNoTests",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "commander": "^11",
+    "consola": "^3",
+    "update-notifier": "^7"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
