@@ -42,3 +42,7 @@ test-output
 # misc
 # add other ignore file below
 bun.lockb
+
+
+.nx/cache
+.nx/workspace-data

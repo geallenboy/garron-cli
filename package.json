@@ -1,17 +1,17 @@
 {
-  "name": "garron-toolbox",
-  "version": "0.0.0",
+  "name": "garron-cli",
+  "version": "0.0.1",
   "private": true,
-  "homepage": "https://github.com/geallenboy/garron-toolbox",
+  "homepage": "https://github.com/geallenboy/garron-cli",
   "bugs": {
-    "url": "https://github.com/geallenboy/garron-toolbox/issues/new"
+    "url": "https://github.com/geallenboy/garron-cli/issues/new"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/geallenboy/garron-toolbox.git"
+    "url": "https://github.com/geallenboy/garron-cli.git"
   },
   "license": "MIT",
-  "author": "gejialun88@1gmail.com",
+  "author": "gejialun88@gmail.com",
   "workspaces": [
     "packages/*"
   ],
@@ -52,7 +52,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^19",
-    "@garron/cli-shebang": "^1",
+    "@lobehub/cli-shebang": "^1",
     "@garron/lint": "latest",
     "@sindresorhus/tsconfig": "^5",
     "@types/lodash-es": "^4",

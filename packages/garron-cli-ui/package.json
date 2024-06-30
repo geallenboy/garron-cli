@@ -1,0 +1,61 @@
+{
+  "name": "@garron/cli-ui",
+  "version": "0.0.1",
+  "description": "garron CLI uikits",
+  "homepage": "https://github.com/geallenboy/garron/tree/master/packages/garron-cli-ui",
+  "bugs": {
+    "url": "https://github.com/geallenboy/garron-toolbox/issues/new"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/geallenboy/garron-toolbox.git"
+  },
+  "license": "MIT",
+  "author": "gejialun88@gmail.com",
+  "sideEffects": false,
+  "type": "module",
+  "imports": {
+    "@": "./src"
+  },
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "default": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "npm run type-check && pkgroll --minify -p tsconfig.prod.json --env.NODE_ENV=production",
+    "dev": "pkgroll -p tsconfig.prod.json --env.NODE_ENV=development --watch",
+    "example": "NODE_NO_WARNINGS=1 node --loader=ts-node/esm",
+    "prepare": "npm run build",
+    "start": "node ./dist/cli.js",
+    "test": "npm run type-check",
+    "test:coverage": "vitest run --coverage  --passWithNoTests",
+    "test:ui": "vitest --passWithNoTests",
+    "test:update": "vitest -u",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@inkjs/ui": "^1",
+    "arr-rotate": "^1",
+    "consola": "^3",
+    "fast-deep-equal": "^3",
+    "figures": "^6",
+    "ink": "^4.2",
+    "react": "^18"
+  },
+  "peerDependencies": {
+    "@inkjs/ui": ">=1",
+    "consola": ">=3",
+    "ink": ">=4",
+    "react": ">=18"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

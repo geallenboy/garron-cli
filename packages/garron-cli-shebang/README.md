@@ -1,9 +1,9 @@
 <div align="center"><a name="readme-top"></a>
 
 
-<h1>Garron CLI </h1>
+<h1>Garron CLI shebang </h1>
 
-Garron CLI 提供了一种将添加到目标文件的简单方法
+Garron CLI shebang 提供了一种将添加到目标文件的简单方法
 
 ![](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -26,10 +26,10 @@ Garron CLI 提供了一种将添加到目标文件的简单方法
 
 ## 安装
 
-To install garron, run the following command:
+要安装garron shebang，请运行以下命令:
 
 ```bash
-npm install -g @garron/garron-cli
+npm install -g @garron/cli-shebang
 ```
 
 <div align="right">
@@ -64,10 +64,10 @@ $ garron -t ./dist/cli.js -s "#!/usr/bin/env bun"
 
 
 ```bash
-$ git clone https://github.com/geallenboy/garron-toolbox.git
-$ cd garron-toolbox
+$ git clone https://github.com/geallenboy/garron-cli.git
+$ cd garron-cli
 $ bun install
-$ cd packages/geallenboy-cli
+$ cd packages/garron-cli
 $ bun dev
 ```
 

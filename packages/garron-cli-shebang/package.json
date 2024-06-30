@@ -1,14 +1,14 @@
 {
-  "name": "@garron/cli",
-  "version": "1.0.1",
-  "description": "Add garron to target file",
-  "homepage": "https://github.com/geallenboy/garron-toolbox/tree/master/packages/garron-cli",
+  "name": "@garron/cli-shebang",
+  "version": "0.0.1",
+  "description": "Add Shebang to target file",
+  "homepage": "https://github.com/geallenboy/garron-cli/tree/master/packages/garron-cli-shebang",
   "bugs": {
-    "url": "https://github.com/geallenboy/garron-toolbox/issues/new"
+    "url": "https://github.com/geallenboy/garron-cli/issues/new"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/geallenboy/garron-toolbox.git"
+    "url": "https://github.com/geallenboy/garron-cli.git"
   },
   "license": "MIT",
   "author": "gejialun88@gmail.com",
@@ -18,8 +18,8 @@
     "@": "./src"
   },
   "bin": {
-    "garron-cli": "dist/cli.js",
-    "garron": "dist/cli.js"
+    "garron-shebang": "dist/cli.js",
+    "shebang": "dist/cli.js"
   },
   "files": [
     "dist"
