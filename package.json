@@ -67,7 +67,7 @@
     "eslint": "^8",
     "husky": "^9",
     "ink-testing-library": "^3",
-    "lerna": "^8",
+    "lerna": "^7",
     "lint-staged": "^15",
     "multi-semantic-release": "^3",
     "pkgroll": "^2",
