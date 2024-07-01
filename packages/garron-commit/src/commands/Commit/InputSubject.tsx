@@ -1,5 +1,5 @@
-import { TextInput } from '@inkjs/ui';
 import { Panel } from '@garron/cli-ui';
+import { TextInput } from '@inkjs/ui';
 import { Text, useInput } from 'ink';
 import { debounce } from 'lodash-es';
 import { memo, useCallback } from 'react';

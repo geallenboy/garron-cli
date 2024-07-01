@@ -1,10 +1,8 @@
 <div align="center"><a name="readme-top"></a>
 
-
 <h1>garron i18n</h1>
 
 garron i18n is a CLI workflow tool that uses ChatGPT for automated i18n.
-
 
 ### Running
 
@@ -15,7 +13,6 @@ $ garron-i18n md
 ```
 
 <div align="right">
-
 
 </div>
 
@@ -31,6 +28,4 @@ $ bun dev
 
 <div align="right">
 
-
 </div>
-

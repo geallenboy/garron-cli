@@ -1,5 +1,5 @@
-import { TextInput } from '@inkjs/ui';
 import { Panel, SelectInput, type SelectInputItem, type SelectInputProps } from '@garron/cli-ui';
+import { TextInput } from '@inkjs/ui';
 import { debounce } from 'lodash-es';
 import { memo, useCallback, useMemo, useState } from 'react';
 import { shallow } from 'zustand/shallow';

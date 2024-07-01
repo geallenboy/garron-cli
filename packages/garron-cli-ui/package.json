@@ -1,7 +1,7 @@
 {
   "name": "@garron/cli-ui",
   "version": "0.0.1",
-  "description": "garron CLI uikits",
+  "description": "garron CLI",
   "homepage": "https://github.com/geallenboy/garron/tree/master/packages/garron-cli-ui",
   "bugs": {
     "url": "https://github.com/geallenboy/garron-toolbox/issues/new"
@@ -29,7 +29,7 @@
     "dev": "pkgroll -p tsconfig.prod.json --env.NODE_ENV=development --watch",
     "example": "NODE_NO_WARNINGS=1 node --loader=ts-node/esm",
     "prepare": "npm run build",
-    "start": "node ./dist/cli.js",
+    "start": "node ./dist/index.js",
     "test": "npm run type-check",
     "test:coverage": "vitest run --coverage  --passWithNoTests",
     "test:ui": "vitest --passWithNoTests",

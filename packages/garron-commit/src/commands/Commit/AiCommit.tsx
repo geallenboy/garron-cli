@@ -1,5 +1,5 @@
-import { Spinner } from '@inkjs/ui';
 import { Panel, SelectInput, type SelectInputItem, SplitView, useTheme } from '@garron/cli-ui';
+import { Spinner } from '@inkjs/ui';
 import { Text, useInput } from 'ink';
 import { memo, useCallback, useEffect, useMemo } from 'react';
 

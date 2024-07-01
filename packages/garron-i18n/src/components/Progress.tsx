@@ -1,5 +1,5 @@
-import { ProgressBar, Spinner, StatusMessage } from '@inkjs/ui';
 import { SplitView, useTheme } from '@garron/cli-ui';
+import { ProgressBar, Spinner, StatusMessage } from '@inkjs/ui';
 import { Box, Text } from 'ink';
 import { memo } from 'react';
 

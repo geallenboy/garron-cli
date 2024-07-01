@@ -1,5 +1,5 @@
-import { MultiSelect, type MultiSelectProps, Spinner, TextInput } from '@inkjs/ui';
 import { Panel, SplitView, useTheme } from '@garron/cli-ui';
+import { MultiSelect, type MultiSelectProps, Spinner, TextInput } from '@inkjs/ui';
 import isEqual from 'fast-deep-equal';
 import { Text, useInput } from 'ink';
 import { debounce } from 'lodash-es';

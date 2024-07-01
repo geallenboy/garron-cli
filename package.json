@@ -52,8 +52,8 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^19",
-    "@lobehub/cli-shebang": "^1",
     "@garron/lint": "latest",
+    "@lobehub/cli-shebang": "^1",
     "@sindresorhus/tsconfig": "^5",
     "@types/lodash-es": "^4",
     "@types/node": "^20",

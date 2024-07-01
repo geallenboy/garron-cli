@@ -1,5 +1,5 @@
-import { Alert, Spinner } from '@inkjs/ui';
 import { useTheme } from '@garron/cli-ui';
+import { Alert, Spinner } from '@inkjs/ui';
 import { Text } from 'ink';
 import fs from 'node:fs';
 import process from 'node:process';

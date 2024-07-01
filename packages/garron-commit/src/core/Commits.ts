@@ -1,6 +1,6 @@
+import { alert } from '@garron/cli-ui';
 import { ChatPromptTemplate } from '@langchain/core/prompts';
 import { ChatOpenAI } from '@langchain/openai';
-import { alert } from '@garron/cli-ui';
 import chalk from 'chalk';
 import { loadSummarizationChain } from 'langchain/chains';
 import { RecursiveCharacterTextSplitter } from 'langchain/text_splitter';
