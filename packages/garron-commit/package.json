@@ -1,6 +1,6 @@
 {
   "name": "@garron/commit-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "garron Commit是一个CLI工具，使用ChatGPT生成基于Gitmoji的提交消息",
   "keywords": [
     "ai",
