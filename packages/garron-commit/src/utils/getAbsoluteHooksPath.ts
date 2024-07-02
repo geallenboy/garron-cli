@@ -20,7 +20,7 @@ export default (hookName: string): string => {
       return path.resolve(gitDirectoryPath + '/hooks', hookName);
     }
   } catch {
-    alert.error('Please check if this is a git folder', true);
+    alert.error('请检查这是否是一个git文件夹', true);
     return ERROR_CODE;
   }
 };

@@ -29,7 +29,7 @@ export class Commits {
 
     if (!this.config.openaiToken) {
       alert.error(
-        `Please set the OpenAI Token by ${chalk.bold.yellow('lobe-commit --config')}`,
+        `Please set the OpenAI Token by ${chalk.bold.yellow('garron-commit --config')}`,
         true,
       );
     }

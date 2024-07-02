@@ -190,7 +190,7 @@ const Config = memo(() => {
       items={items}
       logo="🤯"
       setActive={setActive}
-      title="Lobe Commit Config"
+      title="Garron Commit Config"
     />
   );
 });

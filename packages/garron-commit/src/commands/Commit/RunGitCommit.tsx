@@ -33,7 +33,7 @@ const RunGitCommit = memo<RunGitCommitProps>(({ hook }) => {
       }
     }, []);
     if (loading) return <Spinner label=" Committing..." />;
-    return <Alert variant="success">{` Successfully committed!`}</Alert>;
+    return <Alert variant="success">{` 已成功提交！`}</Alert>;
   } catch (error: any) {
     return <Alert variant="error">{` ${error.message}`}</Alert>;
   }

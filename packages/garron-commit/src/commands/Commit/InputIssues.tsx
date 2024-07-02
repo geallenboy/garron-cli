@@ -70,7 +70,7 @@ const InputIssues = memo(() => {
       <TextInput
         defaultValue={keywords}
         onChange={debounce(handleKeywords, 100)}
-        placeholder="Input to keywords to filter issues, press [Space] to multi-select..."
+        placeholder="输入关键词过滤问题，按[Space]多选..."
       />
     ),
     [issues],
@@ -83,7 +83,7 @@ const InputIssues = memo(() => {
   return (
     <Panel
       footer={<Text>{message}</Text>}
-      header={<Header step={4} steps={4} title="Link issues (optional)" />}
+      header={<Header step={4} steps={4} title="链接问题（可选）" />}
     >
       {isGithubRepo ? (
         issuesLoading ? (
@@ -99,7 +99,7 @@ const InputIssues = memo(() => {
                 options={options}
               />
               {options.length === 0 && (
-                <Text color={theme.colorWarning}>No issues found, press [Enter] to skip...</Text>
+                <Text color={theme.colorWarning}>未发现问题，请按[Enter]跳过。。。</Text>
               )}
             </SplitView>
           </>
@@ -109,7 +109,7 @@ const InputIssues = memo(() => {
           defaultValue={issues}
           onChange={debounce(setIssues, 100)}
           onSubmit={handleSubmit}
-          placeholder="Input number to link issues, press [Enter] to confirm or skip..."
+          placeholder="输入编号以链接问题，按[Enter]确认或跳过。。。"
         />
       )}
     </Panel>

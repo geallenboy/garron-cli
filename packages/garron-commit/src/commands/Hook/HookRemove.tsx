@@ -21,13 +21,13 @@ const HookRemove = memo(() => {
     if (loading) return <Spinner label=" Loading..." />;
     return (
       <Alert variant="success">
-        {` lobe-commit hook `}
+        {` garron-commit hook `}
         <Text color={theme.colorError}>removed</Text>
         {` successfully!`}
       </Alert>
     );
   } catch {
-    return <Alert variant="error">{` lobe-commit commit hook is not found`}</Alert>;
+    return <Alert variant="error">{` garron-commit commit hook is not found`}</Alert>;
   }
 });
 

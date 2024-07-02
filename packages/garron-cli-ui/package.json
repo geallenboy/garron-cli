@@ -1,6 +1,6 @@
 {
   "name": "@garron/cli-ui",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "garron CLI",
   "homepage": "https://github.com/geallenboy/garron/tree/master/packages/garron-cli-ui",
   "bugs": {
@@ -12,7 +12,6 @@
   },
   "license": "MIT",
   "author": "gejialun88@gmail.com",
-  "sideEffects": false,
   "type": "module",
   "imports": {
     "@": "./src"

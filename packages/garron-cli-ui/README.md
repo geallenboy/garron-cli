@@ -8,7 +8,7 @@ Garron CLI UI 是一个用于构建\_AIGC_CLI 应用程序的开源 UI 组件库
 
 ## 📦 Installation
 
-To install Lobe UI, run the following command:
+To install Garron UI, run the following command:
 
 ```bash
 bun add @garron/cli-ui

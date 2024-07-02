@@ -21,13 +21,13 @@ const HookCreate = memo(() => {
     if (loading) return <Spinner label=" Loading..." />;
     return (
       <Alert variant="success">
-        {` lobe-commit hook `}
+        {` garron-commit hook `}
         <Text color={theme.colorSuccess}>created</Text>
         {` successfully!`}
       </Alert>
     );
   } catch {
-    return <Alert variant="error">{` lobe-commit commit hook is not created`}</Alert>;
+    return <Alert variant="error">{` garron-commit commit hook is not created`}</Alert>;
   }
 });
 
