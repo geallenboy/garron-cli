@@ -4,24 +4,7 @@
 
 Garron CLI shebang 提供了一种将添加到目标文件的简单方法
 
-![](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
 </div>
-
-<details>
-<summary><kbd>目录</kbd></summary>
-
-#### TOC
-
-- [安装](#安装)
-- [使用](#使用)
-  - [Custom garron](#custom-garron)
-- [⌨️ 本地开发](#️-本地开发)
-  - [Credits](#credits)
-
-####
-
-</details>
 
 ## 安装
 
@@ -33,7 +16,7 @@ npm install -g @garron/cli-shebang
 
 <div align="right">
 
-[![][back-to-top]](#readme-top)
+[!\[\]\[back-to-top\]](#readme-top)
 
 </div>
 
@@ -53,13 +36,7 @@ $ cli -t ./dist/cli.js
 $ garron -t ./dist/cli.js -s "#!/usr/bin/env bun"
 ```
 
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
-## ⌨️ 本地开发
+## 本地开发
 
 ```bash
 $ git clone https://github.com/geallenboy/garron-cli.git
@@ -69,23 +46,7 @@ $ cd packages/garron-cli
 $ bun dev
 ```
 
-<div align="right">
-
-[![][back-to-top]](#readme-top)
-
-</div>
-
-### Credits
-
-- **ink** - <https://github.com/vadimdemedes/ink>
-
----
-
 #### 📝 License
 
 Copyright © 2024 \[Garron]\[profile-link]. <br />
 This project is [MIT](./LICENSE) licensed.
-
-<!-- LINK GROUP -->
-
-[back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square

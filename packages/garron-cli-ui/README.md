@@ -6,12 +6,12 @@ Garron CLI UI 是一个用于构建\_AIGC_CLI 应用程序的开源 UI 组件库
 
 </div>
 
-## 📦 Installation
+## 安装
 
 To install Garron UI, run the following command:
 
 ```bash
-bun add @garron/cli-ui
+pnpm add @garron/cli-ui
 ```
 
 <div align="right">
@@ -20,14 +20,14 @@ bun add @garron/cli-ui
 
 </div>
 
-## ⌨️ 本地开发
+## 本地开发
 
 ```bash
 $ git clone https://github.com/geallenboy/garron-cli.git
 $ cd garron-cli
-$ bun install
+$ pnpm install
 $ cd packages/garron-cli-ui
-$ bun dev
+$ pnpm dev
 ```
 
 <div align="right">
