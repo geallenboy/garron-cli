@@ -54,7 +54,7 @@ const Config = memo(() => {
       items={items}
       logo="🤯"
       setActive={setActive}
-      title="Lobe I18N Config"
+      title="garron I18N Config"
     />
   );
 });

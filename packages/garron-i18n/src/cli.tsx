@@ -22,10 +22,10 @@ interface Flags {
 }
 
 program
-  .name('lobe-i18n')
+  .name('garron-i18n')
   .description(packageJson.description)
   .version(packageJson.version)
-  .addOption(new Option('-o, --option', 'Setup lobe-i18n preferences'))
+  .addOption(new Option('-o, --option', 'Setup garron-i18n preferences'))
   .addOption(new Option('-c, --config <string>', 'Specify the configuration file'))
   .addOption(
     new Option('-m, --with-md', 'Run i18n translation and markdown translation simultaneously'),

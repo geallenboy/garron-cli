@@ -3,34 +3,25 @@
 
 <h1>garron i18n</h1>
 
-garron i18n is a CLI workflow tool that uses ChatGPT for automated i18n.
+使用GPT自动化翻译
 
+### 运行
 
-### Running
-
-Use the `garron-i18n md` command to automate the generation of i18n files:
+使用 `garron-i18n md` 命令自动生成i18n文件 :
 
 ```shell
 $ garron-i18n md
 ```
 
-<div align="right">
 
-
-</div>
-
-## ⌨️ Local Development
+## ⌨️ 本地运行
 
 ```bash
 $ git clone https://github.com/geallenboy/garron-cli.git
 $ cd garron-cli
-$ bun install
+$ pnpm install
 $ cd packages/garron-i18n
-$ bun dev
+$ pnpm dev
 ```
 
-<div align="right">
-
-
-</div>
 

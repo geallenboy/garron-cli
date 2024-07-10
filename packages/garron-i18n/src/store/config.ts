@@ -14,7 +14,7 @@ export const schema: ConfigSchema = {
   },
 };
 export const config = new Conf({
-  projectName: 'lobe-i18n',
+  projectName: 'garron-i18n',
   schema,
 });
 

@@ -29,7 +29,7 @@ class TranslateLocale {
   }
 
   async start() {
-    consola.start('Lobe I18N is analyzing your project... 🤯🌏🔍');
+    consola.start('garron I18N is analyzing your project... 🤯🌏🔍');
     const isFolder = !this.config.entry.includes('.json') || this.config.entry.includes('*');
     if (isFolder) {
       this.genFolderQuery();

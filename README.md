@@ -11,7 +11,7 @@ Garron CLI 工具箱，提高 git 提交和国际化工作流的效率
 ```bash
 $ git clone https://github.com/geallenboy/garron-cli.git
 $ cd garron-cli
-$ bun install
+$ pnpm install
 ```
 
 ---
@@ -24,6 +24,5 @@ This project is [MIT](./LICENSE) licensed.
 <!-- LINK GROUP -->
 
 [back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square
-[bun-link]: https://bun.sh
 [profile-link]: https://github.com/geallenboy
 

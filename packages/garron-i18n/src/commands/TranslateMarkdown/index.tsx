@@ -38,7 +38,7 @@ class TranslateMarkdown {
   }
 
   async start() {
-    consola.start('Lobe I18N is analyzing your markdown... 🤯🌏🔍');
+    consola.start('garron I18N is analyzing your markdown... 🤯🌏🔍');
     const entry = this.markdownConfig.entry;
 
     if (!entry || entry.length === 0) alert.error('No markdown entry was found.', true);
