@@ -1,5 +1,5 @@
-import { Spinner } from '@inkjs/ui';
 import { Panel, SelectInput, type SelectInputItem, SplitView, useTheme } from '@garron/cli-ui';
+import { Spinner } from '@inkjs/ui';
 import { Text, useInput } from 'ink';
 import { memo, useCallback, useEffect, useMemo } from 'react';
 
@@ -49,12 +49,12 @@ const AiCommit = memo(() => {
     () =>
       [
         summary && {
-          label: '🔄️ Regenerate commit message from summary [FAST]',
+          label: '🔄️ 从摘要中重新生成提交消息[FAST]',
           value: 'reloadFromSummary',
         },
-        { label: '🔄️ Regenerate full commit message [SLOW]', value: 'reload' },
-        { label: '✏️  Edit this message', value: 'edit' },
-        { label: '✅  Use this message', value: 'confirm' },
+        { label: '🔄️ 重新生成完整提交消息[SLOW]', value: 'reload' },
+        { label: '✏️  编辑消息', value: 'edit' },
+        { label: '✅  使用此消息', value: 'confirm' },
       ].filter(Boolean) as SelectInputItem[],
     [summary],
   );
@@ -62,7 +62,7 @@ const AiCommit = memo(() => {
   return (
     <Panel
       footer={!loading && message && <SelectInput items={items} onSelect={handleSelect} />}
-      title={`🤯 AI Commit Generator`}
+      title={`🤯 AI提交生成器`}
     >
       {summary && (
         <SplitView direction={'bottom'}>

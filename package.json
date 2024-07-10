@@ -52,7 +52,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^19",
-    "@lobehub/cli-shebang": "^1",
+    "@garron/cli-shebang": "^0.0.5",
     "@garron/lint": "latest",
     "@sindresorhus/tsconfig": "^5",
     "@types/lodash-es": "^4",
@@ -67,7 +67,7 @@
     "eslint": "^8",
     "husky": "^9",
     "ink-testing-library": "^3",
-    "lerna": "^8",
+    "lerna": "^7",
     "lint-staged": "^15",
     "multi-semantic-release": "^3",
     "pkgroll": "^2",

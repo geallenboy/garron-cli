@@ -44,6 +44,6 @@ export const schema: ConfigSchema = {
 };
 
 export const config = new Conf({
-  projectName: 'lobe-commit',
+  projectName: 'garron-commit',
   schema,
 });

@@ -1,5 +1,5 @@
-import { Spinner } from '@inkjs/ui';
 import { Panel, useTheme } from '@garron/cli-ui';
+import { Spinner } from '@inkjs/ui';
 import { Text } from 'ink';
 import { memo, useEffect, useState } from 'react';
 
@@ -20,13 +20,13 @@ const Ai = memo(() => {
       footer={
         summary && (
           <Text color={theme.colorTextDescription}>
-            <Text bold>{`👉 DIFF SUMMARY: `}</Text>
+            <Text bold>{`👉 不同信息: `}</Text>
             {summary}
           </Text>
         )
       }
       reverse
-      title={`🤯 AI Commit Generator`}
+      title={`AI提交生成器`}
     >
       {!loading && message ? <Text>{message}</Text> : <Spinner label={loadingInfo} />}
     </Panel>

@@ -18,11 +18,14 @@ $ pnpm install
 
 ## 📝 License
 
-Copyright © 2024 [garron][profile-link]. <br />
+Copyright © 2024 \[garron]\[profile-link]. <br />
 This project is [MIT](./LICENSE) licensed.
 
 <!-- LINK GROUP -->
 
-[back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square
-[profile-link]: https://github.com/geallenboy
+<<<<<<< HEAD
+\[back-to-top]: <https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square>
+====================================================================================
 
+> > > > > > > 6765692e65d43b95c2e5d57940a7409899d264af
+> > > > > > > \[profile-link]: <https://github.com/geallenboy>

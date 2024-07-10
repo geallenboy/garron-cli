@@ -15,15 +15,15 @@ notifier.notify({ isGlobal: true });
 const program = new Command();
 
 program
-  .name('lobe-commit')
+  .name('garron-commit')
   .description(packageJson.description)
   .version(packageJson.version)
-  .addOption(new Option('--hook', 'Interactively commit using the prompts'))
-  .addOption(new Option('-a, --ai', 'Generate prompts by ChatGPT'))
-  .addOption(new Option('-o, --option', 'Setup lobe-commit preferences'))
-  .addOption(new Option('-i, --init', 'Initialize lobe-commit as a commit hook'))
-  .addOption(new Option('-r, --remove', 'Remove a previously initialized commit hook'))
-  .addOption(new Option('-l, --list', 'List all commit types supported'))
+  .addOption(new Option('--hook', '使用提示交互提交'))
+  .addOption(new Option('-a, --ai', '通过ChatGPT生成提示'))
+  .addOption(new Option('-o, --option', '设置garron-commit提交首选项'))
+  .addOption(new Option('-i, --init', '将garron-commit初始化为提交挂钩'))
+  .addOption(new Option('-r, --remove', '删除以前初始化的提交挂钩'))
+  .addOption(new Option('-l, --list', '列出支持的所有提交类型'))
   .parse();
 
 interface Flags {

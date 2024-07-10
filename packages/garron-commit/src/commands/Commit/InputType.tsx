@@ -1,5 +1,5 @@
-import { TextInput } from '@inkjs/ui';
 import { Panel, SelectInput, type SelectInputItem, type SelectInputProps } from '@garron/cli-ui';
+import { TextInput } from '@inkjs/ui';
 import { debounce } from 'lodash-es';
 import { memo, useCallback, useMemo, useState } from 'react';
 import { shallow } from 'zustand/shallow';
@@ -19,7 +19,7 @@ const aiItem: SelectInputItem = {
   label: (
     <ListItem
       item={{
-        desc: 'generate commit message by ChatGPT',
+        desc: '通过ChatGPT生成提交消息',
         emoji: '🤯',
         name: 'ai',
         type: 'Use AI Commit',
@@ -71,10 +71,10 @@ const InputType = memo(() => {
         <TextInput
           defaultValue={type}
           onChange={debounce(setTpeKeywords, 100)}
-          placeholder="Search commit <type>..."
+          placeholder="搜索提交<type>..."
         />
       }
-      header={<Header step={1} steps={4} title="Select commit type" />}
+      header={<Header step={1} steps={4} title="选择提交类型" />}
       reverse
     >
       <SelectInput

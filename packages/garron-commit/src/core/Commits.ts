@@ -1,6 +1,6 @@
+import { alert } from '@garron/cli-ui';
 import { ChatPromptTemplate } from '@langchain/core/prompts';
 import { ChatOpenAI } from '@langchain/openai';
-import { alert } from '@garron/cli-ui';
 import chalk from 'chalk';
 import { loadSummarizationChain } from 'langchain/chains';
 import { RecursiveCharacterTextSplitter } from 'langchain/text_splitter';
@@ -29,7 +29,7 @@ export class Commits {
 
     if (!this.config.openaiToken) {
       alert.error(
-        `Please set the OpenAI Token by ${chalk.bold.yellow('lobe-commit --config')}`,
+        `Please set the OpenAI Token by ${chalk.bold.yellow('garron-commit --config')}`,
         true,
       );
     }

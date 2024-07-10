@@ -38,7 +38,7 @@ const Commit = memo<CommitProps>(({ hook }) => {
 
   if (!hook && hasHook) {
     return (
-      <Alert variant="warning">{`Lobe Commit is in hook mode, use "git commit" instead.`}</Alert>
+      <Alert variant="warning">{`Garron Commit is in hook mode, use "git commit" instead.`}</Alert>
     );
   }
 

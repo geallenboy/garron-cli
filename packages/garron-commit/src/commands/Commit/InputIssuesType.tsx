@@ -40,7 +40,7 @@ const InputIssues = memo(() => {
   return (
     <Panel
       footer={<Text>{message}</Text>}
-      header={<Header step={4} steps={4} title="Link issues (optional)" />}
+      header={<Header step={4} steps={4} title="链接问题（可选）" />}
     >
       <SelectInput
         items={items}

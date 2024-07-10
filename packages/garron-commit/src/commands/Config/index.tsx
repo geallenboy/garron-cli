@@ -1,5 +1,5 @@
-import { TextInput } from '@inkjs/ui';
 import { ConfigPanel, type ConfigPanelProps, SelectInput } from '@garron/cli-ui';
+import { TextInput } from '@inkjs/ui';
 import { memo, useMemo, useState } from 'react';
 
 import { BASE_PROMPT } from '@/constants/template';
@@ -190,7 +190,7 @@ const Config = memo(() => {
       items={items}
       logo="🤯"
       setActive={setActive}
-      title="Lobe Commit Config"
+      title="Garron Commit Config"
     />
   );
 });

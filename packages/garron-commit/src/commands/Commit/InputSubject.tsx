@@ -1,5 +1,5 @@
-import { TextInput } from '@inkjs/ui';
 import { Panel } from '@garron/cli-ui';
+import { TextInput } from '@inkjs/ui';
 import { Text, useInput } from 'ink';
 import { debounce } from 'lodash-es';
 import { memo, useCallback } from 'react';
@@ -24,13 +24,13 @@ const InputScope = memo(() => {
   return (
     <Panel
       footer={<Text>{message}</Text>}
-      header={<Header step={3} steps={4} title="Input commit subject" />}
+      header={<Header step={3} steps={4} title="输入提交主题" />}
     >
       <TextInput
         defaultValue={subject}
         onChange={debounce(setSubject, 100)}
         onSubmit={() => subject && setStep('issues')}
-        placeholder="Input commit <subject>..."
+        placeholder="输入提交<subject>..."
       />
     </Panel>
   );

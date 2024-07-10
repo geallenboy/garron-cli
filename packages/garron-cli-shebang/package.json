@@ -1,6 +1,6 @@
 {
   "name": "@garron/cli-shebang",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "Add Shebang to target file",
   "homepage": "https://github.com/geallenboy/garron-cli/tree/master/packages/garron-cli-shebang",
   "bugs": {
@@ -12,7 +12,6 @@
   },
   "license": "MIT",
   "author": "gejialun88@gmail.com",
-  "sideEffects": false,
   "type": "module",
   "imports": {
     "@": "./src"

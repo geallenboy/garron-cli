@@ -1,5 +1,5 @@
-import { Badge } from '@inkjs/ui';
 import { useTheme } from '@garron/cli-ui';
+import { Badge } from '@inkjs/ui';
 import { Text } from 'ink';
 import { memo } from 'react';
 

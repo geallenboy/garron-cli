@@ -1,6 +1,6 @@
 {
   "name": "@garron/commit-cli",
-  "version": "0.0.1",
+  "version": "0.0.7",
   "description": "garron Commit是一个CLI工具，使用ChatGPT生成基于Gitmoji的提交消息",
   "keywords": [
     "ai",
@@ -24,7 +24,6 @@
   },
   "license": "MIT",
   "author": "gejialun88@gmail.com",
-  "sideEffects": false,
   "type": "module",
   "imports": {
     "@": "./src"
@@ -40,17 +39,17 @@
     "build": "npm run type-check && pkgroll --minify -p tsconfig.prod.json --env.NODE_ENV=production && npm run shebang",
     "dev": "pkgroll -p tsconfig.prod.json --env.NODE_ENV=development --watch",
     "link": "npm run build && npm link -f",
-    "shebang": "lobe-shebang -t ./dist/cli.js",
+    "shebang": "garron-shebang -t ./dist/cli.js",
     "start": "node ./dist/cli.js",
     "test": "vitest --passWithNoTests",
     "test:coverage": "vitest run --coverage --passWithNoTests",
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
+    "@garron/cli-ui": "0.0.4",
     "@inkjs/ui": "^1",
     "@langchain/core": "latest",
     "@langchain/openai": "latest",
-    "@garron/cli-ui": "latest",
     "chalk": "^5",
     "commander": "^11",
     "conf": "^12",

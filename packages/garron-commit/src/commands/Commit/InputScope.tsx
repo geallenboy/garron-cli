@@ -1,5 +1,5 @@
-import { TextInput } from '@inkjs/ui';
 import { Panel, SelectInput, SelectInputItem, SplitView } from '@garron/cli-ui';
+import { TextInput } from '@inkjs/ui';
 import { Text, useInput } from 'ink';
 import { debounce } from 'lodash-es';
 import { memo, useCallback, useState } from 'react';
@@ -14,48 +14,47 @@ const INPUT_VALUE = 'Use Input Value';
 
 const commitScopes: SelectInputItem[] = [
   {
-    label: 'Input commit scope',
+    label: '输入提交范围',
     value: INPUT_VALUE,
   },
   {
-    label: 'Package management changes, such as adding, updating, or removing dependencies',
+    label: '包管理更改，如添加、更新或删除依赖项',
     value: 'deps',
   },
   {
-    label:
-      'Configuration file changes, such as adding, updating, or removing configuration options',
+    label: '配置文件更改，如添加、更新或删除配置选项',
     value: 'config',
   },
   {
-    label: 'User interface changes, such as layout, style, or interaction modifications',
+    label: '用户界面更改，如布局、样式或交互修改',
     value: 'ui',
   },
   {
-    label: 'API interface changes, such as adding, modifying, or removing API endpoints',
+    label: 'API接口更改，如添加、修改或删除API端点',
     value: 'api',
   },
   {
-    label: 'Database changes, such as adding, modifying, or removing tables, fields, or indexes',
+    label: '数据库更改，如添加、修改或删除表、字段或索引',
     value: 'database',
   },
   {
-    label: 'Data model changes, such as adding, modifying, or removing data models',
+    label: '数据模型更改，例如添加、修改或删除数据模型',
     value: 'model',
   },
   {
-    label: 'Controller changes, such as adding, modifying, or removing controllers',
+    label: '控制器更改，如添加、修改或删除控制器',
     value: 'controller',
   },
   {
-    label: 'View changes, such as adding, modifying, or removing views',
+    label: '视图更改，例如添加、修改或删除视图',
     value: 'view',
   },
   {
-    label: 'Route changes, such as adding, modifying, or removing routes',
+    label: '管线更改，例如添加、修改或删除管线',
     value: 'route',
   },
   {
-    label: 'Test changes, such as adding, modifying, or removing test cases',
+    label: '测试更改，如添加、修改或删除测试用例',
     value: 'test',
   },
 ];
@@ -114,13 +113,13 @@ const InputScope = memo(() => {
   return (
     <Panel
       footer={<Text>{message}</Text>}
-      header={<Header step={2} steps={4} title="Input commit scope (optional)" />}
+      header={<Header step={2} steps={4} title="输入提交范围（可选）" />}
     >
       <TextInput
         defaultValue={scope}
         onChange={debounce(handleInput, 100)}
         onSubmit={handleSubmit}
-        placeholder="Input commit <scope>, or select below, press [Enter] to skip..."
+        placeholder="输入commit＜scope＞，或在下面选择，按[Enter]跳过。。。"
       />
       <SplitView>
         <SelectInput

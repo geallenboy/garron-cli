@@ -15,7 +15,7 @@ notifier.notify({ isGlobal: true });
 const program = new Command();
 
 program
-  .name('lobe-shebang')
+  .name('garron-shebang')
   .description(packageJson.description)
   .version(packageJson.version)
   .addOption(new Option('-t, --target <file>', 'Target file'))

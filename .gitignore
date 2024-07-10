@@ -1,4 +1,4 @@
-# Gitignore for LobeHub
+# Gitignore for GarronHub
 ################################################################
 
 # general
@@ -24,7 +24,7 @@ package-lock.json
 .stylelintcache
 
 # production
-dist
+
 es
 lib
 logs
